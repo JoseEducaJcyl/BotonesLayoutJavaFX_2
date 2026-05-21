@@ -1,30 +1,28 @@
 # BotonesLayoutJavaFX_2
 
-Pequeño proyecto de ejemplo para JavaFX que demuestra cómo **abrir múltiples ventanas** desde una aplicación principal.
+Proyecto realizado en Java utilizando JavaFX y Maven para practicar el uso de botones y layouts en interfaces gráficas.
 
-## ¿Qué hace?
+## Descripción
 
-Al ejecutar el programa, se muestra una ventana principal con un único botón que dice "Abrir Ventana".  
-Cuando el usuario hace clic en ese botón, se abre una **segunda ventana (secundaria)** completamente independiente, que muestra un mensaje de bienvenida.
+La aplicación muestra una interfaz gráfica creada con JavaFX en la que se utilizan diferentes tipos de botones organizados mediante layouts.
 
-## ¿Cómo funciona internamente?
+El proyecto sirve como ejemplo práctico para aprender la distribución de componentes gráficos y la interacción básica con controles JavaFX.
 
-- La ventana principal es un `Stage` (escenario) creado por JavaFX.
-- El botón tiene un evento (`setOnAction`) que llama a un método privado.
-- Ese método crea un **nuevo objeto `Stage`** , le asigna su propio título (`"Ventana Secundaria"`), una escena con una etiqueta y la hace visible con `.show()`.
-- La ventana secundaria es independiente: se puede mover, minimizar o cerrar sin afectar a la principal.
+## Tecnologías utilizadas
 
-## ¿Para qué sirve este ejemplo?
+- Java
+- JavaFX
+- Maven
 
-Es la base para aprender a crear:
-- Diálogos modales.
-- Formularios emergentes.
-- Ventanas de ayuda o configuración.
+## Requisitos
 
-## Requisitos y ejecución
+- JDK 17 o superior
+- Maven
+- IDE compatible con JavaFX
 
-- Java 11 o superior.
-- Maven.
+## Ejecución del proyecto
+
+Clonar el repositorio:
 
 Clona el repositorio y ejecuta:
 ```bash
