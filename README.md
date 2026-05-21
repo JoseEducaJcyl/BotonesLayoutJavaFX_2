@@ -22,8 +22,6 @@ El proyecto sirve como ejemplo práctico para aprender la distribución de compo
 
 ## Ejecución del proyecto
 
-Clonar el repositorio:
-
 Clona el repositorio y ejecuta:
 ```bash
 mvn javafx:run
